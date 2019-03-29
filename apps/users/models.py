@@ -40,5 +40,5 @@ class EmailVerifyCode(models.Model):
         return self.code
 
     class Meta:
-        verbose_name = '验证码信息'
+        verbose_name = '邮箱验证码信息'
         verbose_name_plural = verbose_name
